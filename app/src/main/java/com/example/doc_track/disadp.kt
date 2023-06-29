@@ -22,7 +22,7 @@ class disadp(var disDetail: ArrayList<datadis>,context: Context):RecyclerView.Ad
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        var a  = LayoutInflater.from(parent.context).inflate(R.layout.docdetails,parent,false)
+        var a  = LayoutInflater.from(parent.context).inflate(R.layout.disdetails,parent,false)
         return ViewHolder(a)
 
     }
